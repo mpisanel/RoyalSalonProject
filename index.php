@@ -55,9 +55,9 @@
                     require("servicespage.php");
                     exit;
                 }
-                else if($email == "admin@gmail.com" && $email!=null && $password == "admin" && $password!=null) {
+                else if($email == "admin@gmail.com" && $email!=null && $password == "a" && $password!=null) {
 
-                      require 'adminpage.php';
+                      require 'adminhome.php';
                       exit();
                     ?>
                     <script>

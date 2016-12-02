@@ -17,11 +17,11 @@
 <body>
 <div id="wrapper">
 <div class="extra-block">
- <div class="row-top">
+ <!--div class="row-top">
     <div id="log">
             <ul class="menu">
+                    <li class="current"><a href="homepage.php">Home</a></li>
                     <li><a href="loginpage.php">Login</a></li>
-                    <li><a href="regpage.php">Register</a></li>
             </ul>
         </div>
 
@@ -30,19 +30,15 @@
 		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
             <input type="submit" value="search" class="tfbutton">
 		</form>
-            </div>
-  </div>
-  <header>
+            </div-->
+ <header>
     <div class="row-nav">
       <div class="main">
         <h1 class="logo"><a href="index.html"><img alt="" src="rimages/logo.png"></a></h1>
         <nav>
           <ul class="menu">
-            <li class="current"><a href="homepage.php">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="servicespage.php">Services</a></li>
-            <li><a href="gallery.php">Gallery</a></li>
-            <li><a href="contacts.php">Contacts</a></li>
+            <li class="current"><a href="homepage.php">Home</a></li>  
+            <li ><a href="loginpage.php">Login</a></li>
           </ul>
         </nav>
         <div class="clear"></div>
@@ -56,19 +52,19 @@
   </section>
 </div>
 <div id="footer">
-         <div class="connect">
+         <!--div class="connect">
+            <iv>
+		<!--h1>FOLLOW OUR MISSIONS ON</h1>
             <div>
-				<h1>FOLLOW OUR MISSIONS ON</h1>
-                <div>
                 <a href="https://www.facebook.com/phinda.enko/" class="facebook">facebook</a>
-				<a href="https://twitter.com/tamiie_07" class="twitter">twitter</a>
-				<a href="https://plus.google.com/u/0/" class="googleplus">googleplus</a>
+		<a href="https://twitter.com/tamiie_07" class="twitter">twitter</a>
+		<a href="https://plus.google.com/u/0/" class="googleplus">googleplus</a>
             </div>
          </div>
-    </div>
+    </div-->
     <div class="footnote">
         <div>
-            <p>This site copyright © Royal Salon Project 2016. All rights reserved.</p>
+            <p>This application copyright © Royal Salon Project 2016. All rights reserved.</p>
         </div>
     </div>
 </div>

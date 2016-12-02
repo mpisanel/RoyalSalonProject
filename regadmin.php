@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Register Page</title>
 <meta charset="utf-8">
 <link href="rcss/StyleWebsite.css" rel="stylesheet" type="text/css"/>
 <link href="rcss/StyleRegister.css" rel="stylesheet" type="text/css"/>
+<link href="rcss/StyleGallary.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" href="rimages/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="rimages/favicon.ico" type="image/x-icon">
 <script src="rjs/jquery.js"></script>
@@ -20,11 +22,10 @@
 <body>
 <div id="wrapper">
 <div class="extra-block">
-  <div class="row-top">
-    <div id="log">
+<div class="row-top">
+     <div id="log">
             <ul class="menu">
-                    <li><a href="loginpage.php">Login</a></li>
-                    <li class="current"><a href="regpage.php">Register</a></li>      
+                <li><a href="homepage.php">Logout</a></li>
             </ul>
         </div>
             <div id="tfheader">
@@ -34,18 +35,17 @@
 		</form>
             </div>
   </div>
-    
   <header>
     <div class="row-nav">
       <div class="main">
         <h1 class="logo"><a href="index.html"><img alt="" src="rimages/logo.png"></a></h1>
         <nav>
           <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="servicespage.php">Services</a></li>
+            <li><a href="adminhome.php">Admin-Home</a></li>
+            <li><a href="about-us.html">Rewards</a></li>
+            <li><a href="services.php">Services</a></li>
             <li><a href="gallery.php">Gallery</a></li>
-            <li><a href="contacts.php">Contacts</a></li>
+            <li><a href="contacts.php">Reports</a></li>
           </ul>
         </nav>
         <div class="clear"></div>
@@ -54,12 +54,24 @@
   </header>
 
   <section id="content">
+        <div class="clear"></div> 
+        <div id="welcomeMsg">
+        <div id="leftline">
+        </div>
+        <div id="textWelcome">
+            <span>Register Administrator</span>
+        </div>
+        <div id="rightLine">
+        </div>
+         </div> <br> 
+         <div class="main-block">
 <div align="center">
   <a class="btn btn-primary btn-lg active" style="width:130px;" role="button" name="btnCust" href="regpage.php" value="Submit">Customer</a>
   <a class="btn btn-success btn-lg active" style="width:130px;" role="button" name="btnEmp" href="regemployee.php" value="Submit">Employee</a>
   <a class="btn btn-default btn-lg active" style="width:130px;" role="button" name="btnAdmin" href="regadmin.php" value="Submit">Admin</a>
 </div>
       <br>
+      
       <div class="login-box">
 			<div class="box-header"><br/>
 				<h2>Enter Details</h2>
@@ -159,17 +171,17 @@
               <div class="modal-footer">
                         <button type="submit" class="btn btn-default btn-lg"  value="Submit" name="btnSubmit">Submit</button>
 		                    <span> </span><span> </span>
-                        <a class="btn btn-default btn-lg" role="button" name="btnBack" href="loginpage.php" value="Back">Back</a>
+                                    <a class="btn btn-default btn-lg" role="button" name="btnBack" href="adminhome.php" value="Back">Back</a>
 
                </div>
     </div>
-
+      </div>
   </section>
 </div>
 
 <div class="block">
  <div id="footer">
-            <div class="connect">
+            <!--div class="connect">
                 <div>
                     <h1>FOLLOW OUR MISSIONS ON</h1>
                     <div>
@@ -178,10 +190,10 @@
 			<a href="https://plus.google.com/u/0/" class="googleplus">googleplus</a>
                     </div>
                 </div>
-            </div>
+            </div-->
             <div class="footnote">
                 <div>
-                    <p>This site copyright © Royal Hair S 2016. All rights reserved.</p>
+                     <p>This application copyright © Royal Salon Project 2016. All rights reserved.</p>
                 </div>
             </div>
         </div>

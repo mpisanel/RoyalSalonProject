@@ -7,6 +7,7 @@
 <link href="rcss/StyleRegister.css" rel="stylesheet" type="text/css"/>
 <link rel="icon" href="rimages/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="rimages/favicon.ico" type="image/x-icon">
+<link href="rcss/StyleGallary.css" rel="stylesheet" type="text/css"/>
 <script src="rjs/jquery.js"></script>
 <script src="rjs/jquery-migrate-1.1.1.js"></script>
 <script src="rjs/bgstretcher.js"></script>
@@ -21,35 +22,29 @@
 <body>
 <div id="wrapper">
 <div class="extra-block">
-  <div class="row-top">
+  <!--div class="row-top">
+      <--a href="homepage.php"><img alt="" src="rimages/logo.png"></a>
     <div id="log">
-        <ul class="menu">
+         <ul class="menu">
+            <li><a href="homepage.php">Home</a></li>  
             <li class="current"><a href="loginpage.php">Login</a></li>
-                <li><a href="regpage.php">Register</a></li>
-                
-        </ul>
+        </ul>  
     </div>
-	
-	<div id="tfheader">
+      <div id="tfheader">
 		 <form id="tfnewsearch" method="get" action="http://www.google.com">
 		    <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
             <input type="submit" value="search" class="tfbutton">
 		 </form>
     </div>
-  </div>
-    
-    
-  <header>
+  </div-->
+    <header>
     <div class="row-nav">
       <div class="main">
         <h1 class="logo"><a href="index.html"><img alt="" src="rimages/logo.png"></a></h1>
         <nav>
           <ul class="menu">
-              <li><a href="homepage.php">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="servicespage.php">Services</a></li>
-            <li><a href="gallery.php">Gallery</a></li>
-            <li><a href="contacts.php">Contacts</a></li>
+            <li><a href="homepage.php">Home</a></li>  
+            <li class="current"><a href="loginpage.php">Login</a></li>
           </ul>
         </nav>
         <div class="clear"></div>
@@ -58,9 +53,20 @@
   </header>
   <section id="content">
     <form class="form-horizental" method="get" action="index.php">
+        <div class="clear"></div> 
+        <div id="welcomeMsg">
+        <div id="leftline">
+        </div>
+        <div id="textWelcome">
+            <span>Sign In</span>
+        </div>
+        <div id="rightLine">
+        </div>
+         </div> <br>
+         <div class="main-block">
 		<div class="login-box">
 			<div class="box-header"><br/>
-				<h2>Sign In</h2>
+				<h2>Enter Details</h2>
 			</div><br/><br/>
                     <div class="row">
                                  <div class="col-sm-6">
@@ -97,28 +103,30 @@
             <div class="modal-footer">
               <button type="submit"  class=" btn btn-default btn-lg"  value="Login" name="btnLogin">Sign In</button>
                 <span> </span><span> </span><span> </span>
-                <a class="btn btn-default btn-lg" role="button" name="btnSignUp" href="regpage.php" value="Register">Register</a>
+                <!--<a class="btn btn-default btn-lg" role="button" name="btnSignUp" href="regpage.php" value="Register">Register</a>-->
             </div>
         </div>
+         </div>
       </form>
+      
     </section>
 </div>
 
 <div class="block">
 <div id="footer">
-         <div class="connect">
+         <!--div class="connect">
+            <!--div>
+		<h1>FOLLOW OUR MISSIONS ON</h1>
             <div>
-				<h1>FOLLOW OUR MISSIONS ON</h1>
-                <div>
                 <a href="https://www.facebook.com/phinda.enko/" class="facebook">facebook</a>
-				<a href="https://twitter.com/tamiie_07" class="twitter">twitter</a>
-				<a href="https://plus.google.com/u/0/" class="googleplus">googleplus</a>
+		<a href="https://twitter.com/tamiie_07" class="twitter">twitter</a>
+		<a href="https://plus.google.com/u/0/" class="googleplus">googleplus</a>
             </div>
          </div>
-    </div>
+    </div-->
     <div class="footnote">
         <div>
-            <p>This site copyright © Royal Salon Project 2016. All rights reserved.</p>
+            <p>This application copyright © Royal Salon Project 2016. All rights reserved.</p>
         </div>
     </div>
 </div>

@@ -3,8 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
 body {
 	font:12px/19px Arial, Helvetica, sans-serif;
-       
-	color:#848383;
+      	color:#848383;
 	position:relative;
 	min-width:1036px;
 }
@@ -17,6 +16,11 @@ html {
 /* Global Structure---------------------------------------- */
 .main {
 	margin:0 auto;
+	width:940px;
+	position:relative;
+}
+.maind {
+	margin-left: 70px;
 	width:940px;
 	position:relative;
 }
@@ -297,9 +301,9 @@ color:#fff
 
 /********************** Content style ************************/
 section#content {
-	position:relative;
+	/*position:relative;
 	z-index:10;
-	padding:92px 0;
+	padding:92px 0;*/
 	
 }
 .border-vert{background:url(../rimages/border-vert.png) repeat-y 477px 0}
@@ -318,7 +322,7 @@ section#content {
 
 .row-1{background:url(../rimages/tail-bg-top.png);padding:21px 0 23px}
 
-.main-block{
+/*.main-block{
     width:1036px;
     margin:0 auto;background:url(../rimages/tail-cont.png);
     padding:38px 0;
@@ -326,6 +330,20 @@ section#content {
     -moz-border-radius:13px;
     -webkit-border-radius:13px;
     min-height: 565px;
+}*/
+.main-block{
+    float: left;
+    width:1036px;
+    margin:0 auto;
+    background:url(../rimages/tail-cont.png);
+    padding:38px 0;
+    border-radius:13px;
+    -moz-border-radius:13px;
+    -webkit-border-radius:13px;
+    min-height:100%;
+    margin-left: 80px;
+
+ position:relative; 
 }
 
 
@@ -631,10 +649,13 @@ dl.address dd span {
 
 }
 body {
-	
-	background-size: cover;
-        background-color: whitesmoke;
-        /*background-image: url("../rimages/slide-4.jpg");*/
+    /*background: url("../rimages/slide-5.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 1980px 1000px;*/
+    background-color: whitesmoke;
 }
 /*#log > tfheader
 {
@@ -656,7 +677,7 @@ body {
 .row-top > #log
 {
     width:100%;
-    height: 15px;
+    height: 23px;
     line-height: 15px;
 }
 #log > ul
@@ -664,8 +685,8 @@ body {
     float:left;
     text-align: center;
     list-style-type: none;
-    margin-left:680px;
-    margin-top: 5px;
+    margin-left:660px;
+    margin-top: 14px;
 }
 #log > ul > li
 {
@@ -811,17 +832,17 @@ body {
   
     
 }
-/*#subContent
+#subContent
 {
     float: left;
     width:950px;
-    margin-left: 50px;
+    margin-left: 150px;
     margin-top: 5px;
     padding-bottom: 30px;
     position: relative;
     background-color: white;
     border-radius: 5px 5px 5px 5px;
-}
+}/*
 #subCon
 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, bold;
@@ -881,7 +902,7 @@ body {
 {
     float:left;
 	width:100%;
-	height:80px;
+	height:0px;
 	left: 0px;
 	bottom:0px;
 	margin-top: 10px;
@@ -981,7 +1002,7 @@ body {
 	text-transform: uppercase;
 	width: 940px;
 }
-/*#textWelcome{
+#textWelcome{
 	float: left;
 	text-align: center;
 	height: 25px;
@@ -1016,11 +1037,16 @@ body {
 	font-size: 18px;
 	color: #333;
         width: 295px;
-}*/
+}
 /**Search*/
+.row-top >#tfheader
+{
+     margin-bottom: 5px;
+     margin-top: 0px;
+}
 .tftextinput{
 	margin: 0;
-	padding: 5px 0px;
+	padding: 5px 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:14px;
 	border:1px solid #0076a3; border-right:0px;
@@ -1029,7 +1055,7 @@ body {
 }
 .tfbutton {
 	margin: 0;
-	padding: 5px 0px;
+	padding: 5px 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:14px;
 	outline: none;

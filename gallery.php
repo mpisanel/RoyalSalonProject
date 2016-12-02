@@ -8,6 +8,7 @@
 <link rel="shortcut icon" href="rimages/favicon.ico" type="image/x-icon">
 <link href="rcss/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
 <link href="rcss/StyleWebsite.css" rel="stylesheet" type="text/css"/>
+<link href="rcss/StyleGallary.css" rel="stylesheet" type="text/css"/>
 <script src="rjs/jquery.js"></script>
 <script src="rjs/jquery-migrate-1.1.1.js"></script>
 <script src="rjs/bgstretcher.js"></script>
@@ -40,10 +41,9 @@ $(document).ready(function () {
 <div id="wrapper">
 <div class="extra-block">
  <div class="row-top">
-    <div id="log">
+   <div id="log">
             <ul class="menu">
-                    <li><a href="loginpage.php">Login</a></li>
-                    <li><a href="regpage.php">Register</a></li>
+                <li><a href="homepage.php">Logout</a></li>
             </ul>
         </div>
 
@@ -59,12 +59,12 @@ $(document).ready(function () {
       <div class="main">
         <h1 class="logo"><a href="index.html"><img alt="" src="rimages/logo.png"></a></h1>
         <nav>
-          <ul class="menu">
-              <li><a href="homepage.php">Home</a></li>
-            <li><a href="about-us.html">About Us</a></li>
-            <li><a href="servicespage.php">Services</a></li>
-            <li class="current"><a href="gallery.php">Gallery</a></li>
-            <li><a href="contacts.php">Contacts</a></li>
+         <ul class="menu">
+            <li><a href="adminhome.php">Admin-Home</a></li>
+            <li><a href="regpage.php">Register</a></li>
+            <li><a href="about-us.html">Rewards</a></li>
+            <li><a href="services.php">Services</a></li>
+            <li><a href="contacts.php">Reports</a></li>
           </ul>
         </nav>
         <div class="clear"></div>
@@ -72,9 +72,19 @@ $(document).ready(function () {
     </div>
   </header>
   <section id="content">
+      <div class="clear"></div> 
+        <div id="welcomeMsg">
+        <div id="leftline">
+        </div>
+        <div id="textWelcome">
+            <span>Gallery</span>
+        </div>
+        <div id="rightLine">
+        </div>
+         </div> <br>  
     <div class="main-block">
       <div class="main">
-        <h3>Our Gallery</h3>
+        <!--h3>Our Gallery</h3-->
         <div id="carousel" class="es-carousel-wrapper ">
           <div class="es-carousel">
             <ul>
@@ -106,7 +116,7 @@ $(document).ready(function () {
   </section>
 </div>
 <div id="footer">
-         <div class="connect">
+         <!--div class="connect">
             <div>
 				<h1>FOLLOW OUR MISSIONS ON</h1>
                 <div>
@@ -115,7 +125,7 @@ $(document).ready(function () {
 				<a href="https://plus.google.com/u/0/" class="googleplus">googleplus</a>
             </div>
          </div>
-    </div>
+    </div-->
     <div class="footnote">
         <div>
             <p>This site copyright © Royal Hair S 2016. All rights reserved.</p>

@@ -101,7 +101,7 @@ class registerpage{
             else
             {
                 if($conn->query($query)&& $conn->query($query1)) {
-                 require 'loginpage.php';
+                 require 'regpage.php';
                     ?>
                     <script>
                         alert('customer regestererd!!!');
