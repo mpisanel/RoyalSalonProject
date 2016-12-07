@@ -22,21 +22,6 @@
 <body>
 <div id="wrapper">
 <div class="extra-block">
-  <!--div class="row-top">
-      <--a href="homepage.php"><img alt="" src="rimages/logo.png"></a>
-    <div id="log">
-         <ul class="menu">
-            <li><a href="homepage.php">Home</a></li>  
-            <li class="current"><a href="loginpage.php">Login</a></li>
-        </ul>  
-    </div>
-      <div id="tfheader">
-		 <form id="tfnewsearch" method="get" action="http://www.google.com">
-		    <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
-            <input type="submit" value="search" class="tfbutton">
-		 </form>
-    </div>
-  </div-->
     <header>
     <div class="row-nav">
       <div class="main">
@@ -63,7 +48,6 @@
         <div id="rightLine">
         </div>
          </div> <br>
-         <div class="main-block">
 		<div class="login-box">
 			<div class="box-header"><br/>
 				<h2>Enter Details</h2>
@@ -106,7 +90,7 @@
                 <!--<a class="btn btn-default btn-lg" role="button" name="btnSignUp" href="regpage.php" value="Register">Register</a>-->
             </div>
         </div>
-         </div>
+      
       </form>
       
     </section>

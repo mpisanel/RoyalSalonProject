@@ -104,7 +104,7 @@
         <div id="rightLine">
         </div>
          </div> <br>
-         <div class="main-block">
+        
  <div align="center">
   <a class="btn btn-primary btn-lg active" style="width:130px;" role="button" name="btnCust" href="regpage.php" value="Submit">Customer</a>
   <a class="btn btn-success btn-lg active" style="width:130px;" role="button" name="btnEmp" href="regemployee.php" value="Submit">Employee</a>
@@ -215,7 +215,7 @@
 
                </div>
     </div>
-      </form></div>
+      </form>
   </section>
 </div>
 

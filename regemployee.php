@@ -43,7 +43,7 @@
           <ul class="menu">
             <li><a href="adminhome.php">Admin-Home</a></li>
             <li><a href="about-us.html">Rewards</a></li>
-            <li><a href="services.php">Services</a></li>
+            <li><a href="serviceslist.php">Services</a></li>
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="contacts.php">Reports</a></li>
           </ul>
@@ -63,7 +63,7 @@
         <div id="rightLine">
         </div>
          </div> <br>
-         <div class="main-block">
+        
     <div align="center">
   <a class="btn btn-primary btn-lg active" style="width:130px;" role="button" name="btnCust" href="regpage.php" value="Submit">Customer</a>
   <a class="btn btn-success btn-lg active" style="width:130px;" role="button" name="btnEmp" href="regemployee.php" value="Submit">Employee</a>
@@ -173,7 +173,7 @@
 
                </div>
     </div>
-         </div>
+         
   </section>
 </div>
 

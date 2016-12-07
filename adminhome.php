@@ -38,8 +38,8 @@
         <nav>
           <ul class="menu">
             <li><a href="regpage.php">Register</a></li>
-            <li><a href="about-us.html">Rewards</a></li>
-            <li><a href="services.php">Services</a></li>
+            <li><a href="">Rewards</a></li>
+            <li><a href="serviceslist.php">Services</a></li>
             <li><a href="gallery.php">Gallery</a></li>
             <li><a href="contacts.php">Reports</a></li>
           </ul>
@@ -67,42 +67,20 @@
                           </div></a>
                 </div>
             <div id="homefigure">
-                <a><img src="rimages/menuimg/2.png" alt=""/>  <div align="center">Services<br />
+                <a href="serviceslist.php"><img src="rimages/menuimg/2.png" alt=""/>  <div align="center">Services<br />
              </div></a>
              </div>
               <div id="homefigure">
                     <a><img src="rimages/menuimg/3.png" alt=""/>  <div align="center">Reports<br />
                </div></a>
              </div>
-              <div id="homefigure">
-                    <a href="gallery.php"><img src="rimages/menuimg/4.png" alt=""/>  <div align="center">Gallery <br />
-               </div></a>
-             </div>
-
-              <div id="homefigure">
-                    <a><img src="rimages/menuimg/5.png" alt=""/>  <div align="center">Sales<br />
-               </div></a>
-             </div>
-         <div id="homefigure">
-                    <a><img src="rimages/menuimg/4.png" alt=""/>  <div align="center">Pashmina's Mixed Colors<br />
-                    </div></a>
-             </div>
+             
         </div>
       </div></div>
           
   </section>
 </div>
 <div id="footer">
-         <!--div class="connect">
-            <div>
-				<h1>FOLLOW OUR MISSIONS ON</h1>
-                <div>
-                <a href="https://www.facebook.com/phinda.enko/" class="facebook">facebook</a>
-				<a href="https://twitter.com/tamiie_07" class="twitter">twitter</a>
-				<a href="https://plus.google.com/u/0/" class="googleplus">googleplus</a>
-            </div>
-         </div>
-    </div-->
     <div class="footnote">
         <div>
             <p>This site copyright © Royal Salon Project 2016. All rights reserved.</p>

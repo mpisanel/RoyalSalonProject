@@ -17,20 +17,6 @@
 <body>
 <div id="wrapper">
 <div class="extra-block">
- <!--div class="row-top">
-    <div id="log">
-            <ul class="menu">
-                    <li class="current"><a href="homepage.php">Home</a></li>
-                    <li><a href="loginpage.php">Login</a></li>
-            </ul>
-        </div>
-
-            <div id="tfheader">
-		<form id="tfnewsearch" method="get" action="http://www.google.com">
-		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
-            <input type="submit" value="search" class="tfbutton">
-		</form>
-            </div-->
  <header>
     <div class="row-nav">
       <div class="main">
